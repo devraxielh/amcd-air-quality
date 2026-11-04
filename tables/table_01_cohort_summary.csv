@@ -1,0 +1,4 @@
+scenario,n,p,true_edges,latent_confounder,mean_abs_r_marginal,max_abs_r_marginal,n_pairs_abs_r_gt_0.3,mean_abs_r_within,mean_r_planted_within,BIC_selected_k,BIC_selected_cov
+D_semi,500,10,4,True,0.5958909023163487,0.8579123143165568,45,0.10696416786816894,0.4827957365271911,3,diag
+D_real,500,10,0,True,0.6045236975577535,0.837068420112596,45,0.06573891599637428,n/a,3,diag
+D_null,500,10,4,False,0.08358522320320577,0.5518268471026653,4,0.10696416786816897,0.4827957365271911,1,full

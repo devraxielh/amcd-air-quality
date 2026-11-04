@@ -1,0 +1,35 @@
+\begin{tabular}{llcccccp{4.2cm}}
+\toprule
+Scenario & Comparison & Statistic & $p$ & $p_{\mathrm{Holm}}$ & Effect & Cliff's $\delta$ & Interpretation \\
+\midrule
+D\_semi & Friedman (9 methods) & 381.711 & 1.53e-77 & -- & -- & -- & Reject H0 of equal ranks; CD=1.699 \\
+D\_semi & AMCD vs Empty (Wilcoxon) & 0.000 & 2.89e-10 & 2.02e-09 & -1.000 & -0.980 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs MargCorr (Wilcoxon) & 0.000 & 2.09e-10 & 1.67e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs PC (Wilcoxon) & 0.000 & 3.85e-10 & 2.02e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs GES (Wilcoxon) & 0.000 & 6.47e-10 & 2.02e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs FCI (Wilcoxon) & 0.000 & 3.06e-10 & 2.02e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs NOTEARS (Wilcoxon) & 0.000 & 4.67e-10 & 2.02e-09 & -1.000 & -0.991 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs JCI-PC (Wilcoxon) & 27.000 & 9.70e-09 & 9.70e-09 & -0.952 & -0.830 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs CD-NOD (Wilcoxon) & 0.000 & 4.41e-10 & 2.02e-09 & -1.000 & -0.998 & Reject H0 (AMCD better) \\
+D\_semi & AMCD vs PC v-structure (exact McNemar) & 42.000 & 1.00e-11 & -- & +0.953 & -- & discordant AMCD-only=42, PC-only=1; Reject H0 \\
+D\_real & Friedman (9 methods) & 391.989 & 9.68e-80 & -- & -- & -- & Reject H0 of equal ranks; CD=1.699 \\
+D\_real & AMCD vs Empty (Wilcoxon) & 0.000 & 1.45e-08 & 2.90e-08 & +1.000 & +0.820 & Reject H0 (AMCD worse) \\
+D\_real & AMCD vs MargCorr (Wilcoxon) & 0.000 & 5.23e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs PC (Wilcoxon) & 0.000 & 5.29e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs GES (Wilcoxon) & 0.000 & 6.63e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs FCI (Wilcoxon) & 0.000 & 5.75e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs NOTEARS (Wilcoxon) & 0.000 & 5.91e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs JCI-PC (Wilcoxon) & 15.000 & 9.02e-08 & 9.02e-08 & -0.963 & -0.679 & Reject H0 (AMCD better) \\
+D\_real & AMCD vs CD-NOD (Wilcoxon) & 0.000 & 5.81e-10 & 4.18e-09 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_null & Friedman (9 methods) & 365.114 & 5.37e-74 & -- & -- & -- & Reject H0 of equal ranks; CD=1.699 \\
+D\_null & AMCD vs Empty (Wilcoxon) & 0.000 & 1.15e-10 & 9.21e-10 & -1.000 & -1.000 & Reject H0 (AMCD better) \\
+D\_null & AMCD vs MargCorr (Wilcoxon) & 0.000 & 3.24e-09 & 1.95e-08 & -1.000 & -0.718 & Reject H0 (AMCD better) \\
+D\_null & AMCD vs PC (Wilcoxon) & -- & 1.00e+00 & 1.00e+00 & +0.000 & +0.000 & Do not reject H0 (no difference) \\
+D\_null & AMCD vs GES (Wilcoxon) & 0.000 & 6.22e-10 & 4.36e-09 & -1.000 & -0.920 & Reject H0 (AMCD better) \\
+D\_null & AMCD vs FCI (Wilcoxon) & -- & 1.00e+00 & 1.00e+00 & +0.000 & +0.000 & Do not reject H0 (no difference) \\
+D\_null & AMCD vs NOTEARS (Wilcoxon) & 0.000 & 1.62e-04 & 8.12e-04 & +1.000 & +0.300 & Reject H0 (AMCD worse) \\
+D\_null & AMCD vs JCI-PC (Wilcoxon) & -- & 1.00e+00 & 1.00e+00 & +0.000 & +0.000 & Do not reject H0 (no difference) \\
+D\_null & AMCD vs CD-NOD (Wilcoxon) & -- & 1.00e+00 & 1.00e+00 & +0.000 & +0.000 & Do not reject H0 (no difference) \\
+D\_null & AMCD vs PC v-structure (exact McNemar) & 0.000 & 1.00e+00 & -- & +0.000 & -- & discordant AMCD-only=0, PC-only=0; Do not reject H0 \\
+\bottomrule
+\end{tabular}

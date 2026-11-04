@@ -1,0 +1,27 @@
+[run] 01_data_splitting_and_prep.py
+[run] 02_baseline_and_sota_models.py
+[run] 03_ablation_and_sensitivity.py
+[run] 04_statistical_tests.py
+[run] 05_explainability_and_error.py
+[run] 06_robustness_generators.py
+[run] 07_real_data_validation.py
+[run] 08_real_latent_regime.py
+[run] 01_data_splitting_and_prep.py
+[run] 02_baseline_and_sota_models.py
+[run] 03_ablation_and_sensitivity.py
+[run] 04_statistical_tests.py
+[run] 05_explainability_and_error.py
+[run] 06_robustness_generators.py
+[run] 07_real_data_validation.py
+[run] 08_real_latent_regime.py
+
+================ EXIT CRITERIA ================
+[PASS] tables_exist
+[PASS] figures_exist
+[PASS] png_600dpi
+[PASS] no_titles
+[PASS] all_results_replicated
+[PASS] no_global_fit_in_evaluation
+[PASS] reproducible_second_run
+DPI: {'fig_01_data_distribution_or_manifold': (600, 600), 'fig_02_main_performance_comparison': (600, 600), 'fig_03_ablation_and_sensitivity': (600, 600), 'fig_04_explainability_shap_or_latent': (600, 600), 'fig_05_error_calibration_or_case_study': (600, 600), 'fig_06_robustness_generators': (600, 600), 'fig_07_real_data_validation': (600, 600), 'fig_08_latent_regime_validation': (600, 600), 'fig_S1_critical_difference': (600, 600)}
+Runtime run1=301.7s run2=308.1s

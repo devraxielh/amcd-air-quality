@@ -1,0 +1,18 @@
+\begin{tabular}{lllcccccc}
+\toprule
+ID & Variant & Scenario & SHD $\downarrow$ & $\Delta$SHD [95\% CI] $\downarrow$ & F1 $\uparrow$ & V-struct. $\uparrow$ & $p$ (Wilcoxon) & $r_{rb}$ \\
+\midrule
+A0a & AMCD (full) & D\_semi & \underline{0.540 $\pm$ 0.838} & reference & \underline{0.944} & 0.920 & n/a & n/a \\
+A1 & w/o cross-fitting & D\_semi & \textbf{0.320 $\pm$ 0.513} & -0.220 [-0.420, -0.040] & \textbf{0.965} & 0.980 & 3.25e-02 & -0.637 \\
+A2 & w/o Analyze (fixed k=2) & D\_semi & 4.180 $\pm$ 1.044 & +3.640 [+3.260, +4.020] & 0.662 & 0.460 & 5.98e-10 & +1.000 \\
+A3 & w/o Analyze (fixed k=4) & D\_semi & \underline{0.540 $\pm$ 0.613} & +0.000 [-0.220, +0.200] & 0.941 & 0.960 & 8.57e-01 & +0.046 \\
+A4a & w/o re-planning & D\_semi & \underline{0.540 $\pm$ 0.838} & +0.000 [+0.000, +0.000] & \underline{0.944} & 0.920 & n/a & +0.000 \\
+A6a & v1 Analyze (full mixtures) & D\_semi & \underline{0.540 $\pm$ 0.838} & +0.000 [+0.000, +0.000] & \underline{0.944} & 0.920 & n/a & +0.000 \\
+A0b & AMCD (full) & D\_real & \textbf{1.500 $\pm$ 0.995} & reference & n/a & n/a & n/a & n/a \\
+A4b & w/o re-planning & D\_real & \underline{1.560 $\pm$ 1.580} & +0.060 [-0.320, +0.520] & n/a & n/a & 6.03e-01 & -0.111 \\
+A6b & v1 Analyze (full mixtures) & D\_real & \textbf{1.500 $\pm$ 0.995} & +0.000 [+0.000, +0.000] & n/a & n/a & n/a & +0.000 \\
+A0c & AMCD (full) & D\_null & \textbf{0.320 $\pm$ 0.513} & reference & \textbf{0.965} & 0.980 & n/a & n/a \\
+A5 & w/o trigger (forced k=3) & D\_null & \underline{1.020 $\pm$ 0.714} & +0.700 [+0.440, +0.960] & \underline{0.891} & 0.300 & 1.37e-05 & +0.782 \\
+A6c & v1 Analyze (full mixtures) & D\_null & \textbf{0.320 $\pm$ 0.513} & +0.000 [+0.000, +0.000] & \textbf{0.965} & 0.980 & n/a & +0.000 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,30 @@
+scenario,comparison,statistic,p,p_holm,effect_size,effect_name,interpretation,cliffs_delta,median_diff_SHD,p_nemenyi
+D_semi,Friedman (9 methods),381.7106065740426,1.5254593300588682e-77,n/a,n/a,n/a,Reject H0 of equal ranks; CD=1.699,n/a,n/a,n/a
+D_semi,AMCD vs Empty (Wilcoxon),0.0,2.888628480508219e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-0.98,-4.0,0.008559145660753553
+D_semi,AMCD vs MargCorr (Wilcoxon),0.0,2.0851585826550887e-10,1.668126866124071e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-41.0,1.1102230246251565e-16
+D_semi,AMCD vs PC (Wilcoxon),0.0,3.852294284923489e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-8.0,1.1102230246251565e-16
+D_semi,AMCD vs GES (Wilcoxon),0.0,6.467585410655575e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-13.0,1.1102230246251565e-16
+D_semi,AMCD vs FCI (Wilcoxon),0.0,3.05710240585725e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-8.0,1.1102230246251565e-16
+D_semi,AMCD vs NOTEARS (Wilcoxon),0.0,4.667394403060557e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-0.9908,-4.0,1.3679226127938371e-05
+D_semi,AMCD vs JCI-PC (Wilcoxon),27.0,9.702042053994468e-09,9.702042053994468e-09,-0.9521276595744681,rank-biserial r,Reject H0 (AMCD better),-0.8304,-2.0,0.24931018353704293
+D_semi,AMCD vs CD-NOD (Wilcoxon),0.0,4.414555519063886e-10,2.022039936355753e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-0.9976,-5.0,1.9344079005279013e-08
+D_semi,AMCD vs PC v-structure (exact McNemar),42.0,1.000444171950221e-11,n/a,0.9534883720930233,(b01-b10)/(b01+b10),"discordant AMCD-only=42, PC-only=1; Reject H0",n/a,n/a,n/a
+D_real,Friedman (9 methods),391.98920195714527,9.679918895732727e-80,n/a,n/a,n/a,Reject H0 of equal ranks; CD=1.699,n/a,n/a,n/a
+D_real,AMCD vs Empty (Wilcoxon),0.0,1.450692220978277e-08,2.901384441956554e-08,1.0,rank-biserial r,Reject H0 (AMCD worse),0.82,1.5,0.7134605464863752
+D_real,AMCD vs MargCorr (Wilcoxon),0.0,5.227261796655334e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-43.5,1.1102230246251565e-16
+D_real,AMCD vs PC (Wilcoxon),0.0,5.288924587710401e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-14.5,7.66053886991358e-15
+D_real,AMCD vs GES (Wilcoxon),0.0,6.625286633417949e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-20.0,1.1102230246251565e-16
+D_real,AMCD vs FCI (Wilcoxon),0.0,5.745893124677536e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-14.5,3.430589146091734e-14
+D_real,AMCD vs NOTEARS (Wilcoxon),0.0,5.912319306823235e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-7.0,0.010436441968609822
+D_real,AMCD vs JCI-PC (Wilcoxon),15.0,9.024390225258567e-08,9.024390225258567e-08,-0.9634146341463414,rank-biserial r,Reject H0 (AMCD better),-0.6792,-2.0,0.5761231164579155
+D_real,AMCD vs CD-NOD (Wilcoxon),0.0,5.81303081376949e-10,4.181809437324267e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-9.0,3.493997595382936e-05
+D_null,Friedman (9 methods),365.1144788995102,5.365378760065191e-74,n/a,n/a,n/a,Reject H0 of equal ranks; CD=1.699,n/a,n/a,n/a
+D_null,AMCD vs Empty (Wilcoxon),0.0,1.15078814791046e-10,9.20630518328368e-10,-1.0,rank-biserial r,Reject H0 (AMCD better),-1.0,-4.0,1.1102230246251565e-16
+D_null,AMCD vs MargCorr (Wilcoxon),0.0,3.241761140348519e-09,1.9450566842091116e-08,-1.0,rank-biserial r,Reject H0 (AMCD better),-0.718,-1.0,4.3850250563970405e-07
+D_null,AMCD vs PC (Wilcoxon),n/a,1.0,1.0,0.0,rank-biserial r,Do not reject H0 (no difference),0.0,0.0,1.0
+D_null,AMCD vs GES (Wilcoxon),0.0,6.22207181685728e-10,4.3554502718000964e-09,-1.0,rank-biserial r,Reject H0 (AMCD better),-0.92,-2.0,1.520283898770458e-11
+D_null,AMCD vs FCI (Wilcoxon),n/a,1.0,1.0,0.0,rank-biserial r,Do not reject H0 (no difference),0.0,0.0,1.0
+D_null,AMCD vs NOTEARS (Wilcoxon),0.0,0.00016244084518680078,0.0008122042259340039,1.0,rank-biserial r,Reject H0 (AMCD worse),0.3,0.0,0.7251870292935081
+D_null,AMCD vs JCI-PC (Wilcoxon),n/a,1.0,1.0,0.0,rank-biserial r,Do not reject H0 (no difference),0.0,0.0,1.0
+D_null,AMCD vs CD-NOD (Wilcoxon),n/a,1.0,1.0,0.0,rank-biserial r,Do not reject H0 (no difference),0.0,0.0,1.0
+D_null,AMCD vs PC v-structure (exact McNemar),0.0,1.0,n/a,0.0,(b01-b10)/(b01+b10),"discordant AMCD-only=0, PC-only=0; Do not reject H0",n/a,n/a,n/a

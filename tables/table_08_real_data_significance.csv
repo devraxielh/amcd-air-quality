@@ -1,0 +1,11 @@
+criterion,comparison,delta_mean,delta_ci_low,delta_ci_high,p,rank_biserial,cliffs_delta,primary,p_holm,verdict
+E2 SHD to Oracle-K,AMCD vs Empty,-9.98,-10.4405,-9.46,5.927412093982619e-10,-1.0,-1.0,False,5.3346708845843565e-09,AMCD closer to reference
+E2 SHD to Oracle-K,AMCD vs MargCorr,-20.02,-20.540499999999998,-19.5,6.323450785078022e-10,-1.0,-1.0,False,5.3346708845843565e-09,AMCD closer to reference
+E2 SHD to Oracle-K,AMCD vs PC,0.0,0.0,0.0,1.0,0.0,0.0,True,1.0,n.s.
+E2 SHD to Oracle-K,AMCD vs GES,-11.84,-12.6,-11.06,6.743121753270448e-10,-1.0,-1.0,False,5.3346708845843565e-09,AMCD closer to reference
+E2 SHD to Oracle-K,AMCD vs FCI,0.02,-0.12,0.16,0.7815112949987133,0.07692307692307693,-0.0024,False,1.0,n.s.
+E2 SHD to Oracle-K,AMCD vs NOTEARS,-2.22,-2.72,-1.7,7.600126256522209e-08,-0.8953900709219859,-0.7112,False,4.560075753913325e-07,AMCD closer to reference
+E2 SHD to Oracle-K,AMCD vs JCI-PC,0.0,0.0,0.0,1.0,0.0,0.0,False,1.0,n.s.
+E2 SHD to Oracle-K,AMCD vs CD-NOD,0.0,0.0,0.0,1.0,0.0,0.0,False,1.0,n.s.
+E2 SHD to Oracle-K,AMCD vs AMCD-v1,0.12,-0.4,0.64,0.6488582948418973,0.08013937282229965,0.0128,False,1.0,n.s.
+E1 context recovery,"NMI(AMCD partition, K) − permutation null",0.0,0.0,0.0,1.0,0.0,0.0,False,1.0,n.s.

@@ -1,0 +1,9 @@
+tables_exist: True
+figures_exist: True
+png_600dpi: True
+no_titles: True
+all_results_replicated: True
+no_global_fit_in_evaluation: True
+reproducible_second_run: True
+runtime_run1_s: 301.7
+runtime_run2_s: 308.1
